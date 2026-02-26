@@ -1,0 +1,9 @@
+---
+title: "Chess ELO Calculations- Assignment 5B"
+author: "Kiera Griffiths, Desiree Thomas"
+format: html
+editor: source
+---
+
+## Approach
+For this assignment, we are asked to calculate each player’s expected tournament score using the ELO formula, compare it to their actual score, and identify the five biggest over- and underperformers. Our plan starts with collecting each player’s rating and the ratings of all their opponents from the tournament data. Then, we will use a ELO rating system (from the YouTube video) to calculate each player’s expected score across all games and subtract that from their actual score. Finally, we will rank players by the difference to determine the top five overperformers and underperformers. A key challenge we are anticipating is correctly implementing the ELO formula and calculating accurate expected scores. 
