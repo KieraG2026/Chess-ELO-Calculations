@@ -1,0 +1,15 @@
+---
+title: "5B ELO Calculations"
+author: "Desiree Thomas & Kiera Griffins"
+format: html
+editor: visual
+---
+
+## Load and Libraries
+
+```{r}
+library(tidyverse)
+
+elo_calcs <- read_csv("https://raw.githubusercontent.com/KieraG2026/Project-1--Chess-Tournament/refs/heads/main/tournament_results_final.csv")
+```
+
